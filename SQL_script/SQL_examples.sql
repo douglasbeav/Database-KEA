@@ -17,10 +17,10 @@ ADD COLUMN tele int AFTER office_name;
 
 #inserts data into table 'office' - column 'id' auto increments
 INSERT INTO office (address, tele)
-VALUES 	('Sylvan', 12345678),
+VALUES	('Sylvan', 12345678),
 	('Føtex', 87654321),
-        ('Netto', 72637848),
-        ('XL Byg', 85736458);
+	('Netto', 72637848),
+	('XL Byg', 85736458);
 
 #using 'UPDATE' to change id value to 5 where id is 2
 UPDATE office SET id = 5
