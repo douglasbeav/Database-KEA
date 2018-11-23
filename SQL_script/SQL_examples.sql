@@ -18,7 +18,7 @@ ADD COLUMN tele int AFTER office_name;
 #inserts data into table 'office' - column 'id' auto increments
 INSERT INTO office (address, tele)
 VALUES 	('Sylvan', 12345678),
-		('Føtex', 87654321),
+	('Føtex', 87654321),
         ('Netto', 72637848),
         ('XL Byg', 85736458);
 
